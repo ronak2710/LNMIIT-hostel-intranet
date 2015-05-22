@@ -22,8 +22,26 @@
 
 <body>
 <div class="body_header_1">
-  <div class="header">
-    <div class="header">
+<div style="width:600px;margin-left:auto;">
+<form id="login_form" action="login.php" method="post">
+	<table >
+		<tr>
+			<td>Username</td>
+			<td>Password</td>
+		</tr>
+		<tr>
+			<td><input type="text" name="username" tabindex="1" /></td>
+			<td><input type="password" name="password" tabindex="2" /></td>
+			<td><input value="Log In" tabindex="4" type="submit" /></td>
+		</tr>
+		<tr>
+			<td><a href="change_password.php">Change Password?</a></td>
+		</tr>
+	</table>
+</form>
+</div>
+  <div class="header" style="width:95%;">
+    <div class="header" style="margin-top:-45px;">
       <table width="1002" height="150" border="0" cellpadding="0" cellspacing="0">
         <tr>
         <td width="693"><div align="center" class="style1">
@@ -38,4 +56,5 @@
     </div>
   </div>
 </div>
+
 
